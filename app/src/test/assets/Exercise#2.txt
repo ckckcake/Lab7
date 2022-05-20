@@ -1,0 +1,22 @@
+In your course project, identify three (3) opportunities for refactoring and which of the refactoring tools we've covered here (or others documented here!) would be helpful for doing so.
+
+You should include in your responses why you would perform these refactorings, or at least be ready to explain to a TA.
+
+You don't need to actually perform or push these changes now. When your team next meets however,
+you should take a moment to discuss all of the (possibly up to 18!) refactoring opportunities you identified, and decide which ones you may want to actually apply to your project.
+
+The check-off form has been modified to accommodate this exercise. You can provide three short paragraph answers (with links to your code in GitHub).
+There is also a field for you to include a Google Drive folder if you would prefer to provide screenshots.
+
+Some refactorings to consider:
+-Extract Method
+-Extract Constant
+-Extract Class/Interface/Delegate
+-Change Signature
+-Rename
+    -Do not submit three renames. One at most, and you must justify why it's important.
+    -You won't be able to check off if you do this.
+
+1) Extract delegates: extracting the search filter method and listview/checkbox content from our adapter class to achieve SRP
+2) Change signatures: to match new classes and parameter inputs
+3) Observer pattern: use this to notify about changes in search input for listview/checkbox to update accordingly
